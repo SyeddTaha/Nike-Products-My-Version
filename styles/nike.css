@@ -110,3 +110,65 @@ h2 {
   scale: 1.06;
 }
 
+@media (max-width: 768px) {
+  .main-div {
+    gap: 20px;
+  }
+
+  .prod-card {
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+    height: auto; 
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .price {
+    font-size: 18px;
+  }
+
+  .add, .buy {
+    font-size: 18px;
+  }
+}
+
+/* Media query for extra small screens (e.g. very small mobile devices) */
+@media (max-width: 480px) {
+  .prod-card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 30px; 
+  }
+
+  h2 {
+    font-size: 20px;
+    letter-spacing: 8px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .price {
+    font-size: 16px;
+  }
+
+  .add, .buy {
+    font-size: 16px;
+  }
+}
+
