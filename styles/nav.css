@@ -1,0 +1,27 @@
+.div{
+  margin-top:20px;
+  display:flex;
+  justify-content:space-evenly;
+  height:60px;
+  width:auto;
+}
+
+a{
+  font-weight: 400;
+  font-size:18px;
+  letter-spacing: 3px;
+  cursor:pointer;
+  height:35%;
+  border-radius:35px;
+  padding:10px 20px 10px 20px;
+  transition: all 0.5s;
+}
+a:hover{
+  outline:solid black 1px;
+  scale:1.1;
+}
+
+.img{
+  height:80%;
+  object-fit: contain;
+}

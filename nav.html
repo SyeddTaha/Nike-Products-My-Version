@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+  <div class="div">
+    <a>Home</a>
+    <a>About Us</a>
+    <div><img class="img" src="products/Nike-Logo.png"></div>
+    <a>Contact Us</a>
+    <a>Products</a>
+</div>
+</body>
+</html>
+
+<style>
+
+body{
+    font-family:Helvetica,sans-serif;
+  }
+
+  .div{
+    margin-top:20px;
+    display:flex;
+    justify-content:space-evenly;
+    height:60px;
+    width:auto;
+  }
+
+  a{
+    font-weight: 400;
+    font-size:18px;
+    letter-spacing: 3px;
+    cursor:pointer;
+    height:35%;
+    border-radius:35px;
+    padding:10px 20px 10px 20px;
+    transition: all 0.5s;
+  }
+  a:hover{
+    outline:solid black 1px;
+    scale:1.1;
+  }
+
+  .img{
+    height:80%;
+    object-fit: contain;
+  }
+</style>
